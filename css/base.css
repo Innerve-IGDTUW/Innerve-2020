@@ -365,6 +365,7 @@ canvas {
 
 .content__location {
 	margin: 0;
+	margin-left: 12%;
 	font-weight: 300;
 	color: var(--color-text-secondary);
 }
@@ -395,7 +396,10 @@ canvas {
 .content__date {
 	font-size: 3rem;
 	font-weight: 700;
-	margin: 1rem 0 0 0;
+	/*margin: 1rem 0 0 0;*/
+	margin: 0;
+	margin-left: 10%;
+	font-family: Arial;
 	color: var(--color-date);
 }
 
@@ -549,6 +553,7 @@ canvas {
 	}
 	.content__inner {
 		margin: 0;
+		margin-left: 10%;
 	}
 	.content__item--columns {
 		font-size: 2.15rem;
