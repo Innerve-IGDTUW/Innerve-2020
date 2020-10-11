@@ -8,26 +8,28 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 :root {
 	font-size: 16px;
 }
-
+html{
+    background-color: #2b2b2b;
+}
 body {
 	--color-text: #fff;
-	--color-bg: #181a1e;
-	--color-link: #fff;
+	--color-bg: #2b2b2b;
+	--color-link: #eed9b7;
 	--color-link-hover: #ffcbd6;
 	--color-blocklink: #515151;
-	--color-blocklink-hover: #fff;
+	--color-blocklink-hover: #2b2b2b;
 	--color-blocktitle: #fff;
 	--color-blocktitle-hover: #ff4081;
 	--color-text: #767676;
 	font-family: titling-gothic-fb, sans-serif;
 	min-height: 100vh;
-	color: #57585c;
+	color: #eed9b7;
 	color: var(--color-text);
 /*	background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-042.jpg);*/
     background-size: cover;
-	background-color: black;
+	background-color: #2b2b2b;
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+/*	-moz-osx-font-smoothing: grayscale;*/
 }
 
 /* Page Loader */
@@ -331,11 +333,15 @@ a.content__text-link[data-fx="14"]:hover::after {
 	51% { transform-origin: 100% 50%; }
 	100% { transform-origin: 100% 50%; transform: scale3d(0,1,1); }
 }
+.chn{
+    margin-top: 100px;
+    margin-left: 20px;
+}
 h1{
     font-size: 65px;
-    color: white;
+    color: #eed9b7;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 30px;
     font-family: 'Limelight', cursive;
 }
 .hover-reveal {
