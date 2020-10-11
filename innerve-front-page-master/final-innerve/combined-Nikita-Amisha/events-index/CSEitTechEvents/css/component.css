@@ -520,33 +520,33 @@ Posters and still images
 **************************************/
 
 .scene.image:nth-child(1) .poster {
-  background-image: url(../img/poster01.jpg);
+  background-image: url(../img/INNERVE_HACKS.png);
 }
 
 .scene.image:nth-child(2) .poster {
-  background-image: url(../img/poster02.jpg);
+  background-image: url(../img/DATA_HACKATHON.png);
 }
 
 .scene.image:nth-child(3) .poster {
-  background-image: url(../img/poster03.jpg);
+  background-image: url(../img/innerve_summer_of_code.png);
 }
 .scene.image:nth-child(4) .poster {
-  background-image: url(../img/poster04.jpg);
-}
-.scene.image:nth-child(5) .poster {
-  background-image: url(../img/poster05.jpg);
-}
-.scene.image:nth-child(6) .poster {
-  background-image: url(../img/poster06.jpg);
-}
-.scene.image:nth-child(7) .poster {
   background-image: url(../img/poster01.jpg);
 }
-.scene.image:nth-child(8) .poster {
+.scene.image:nth-child(5) .poster {
   background-image: url(../img/poster02.jpg);
 }
-.scene.image:nth-child(9) .poster {
+.scene.image:nth-child(6) .poster {
   background-image: url(../img/poster03.jpg);
+}
+.scene.image:nth-child(7) .poster {
+  background-image: url(../img/poster04.jpg);
+}
+.scene.image:nth-child(8) .poster {
+  background-image: url(../img/poster05.jpg);
+}
+.scene.image:nth-child(9) .poster {
+  background-image: url(../img/poster06.jpg);
 }
 
 
@@ -578,18 +578,20 @@ Posters and still images
 .scene.image:nth-child(6) .info header {
     background-color: #eed9b7;
 /*	background-image: url(../img/still03.jpg);*/
+    
 } 
-/*
 .scene.image:nth-child(7) .info header {
-	background-image: url(../img/still01.jpg);
+/*	background-image: url(../img/still01.jpg);*/
+     background-color: #eed9b7;
 } 
 .scene.image:nth-child(8) .info header {
-	background-image: url(../img/still02.jpg);
+/*	background-image: url(../img/still02.jpg);*/
+     background-color: #eed9b7;
 } 
 .scene.image:nth-child(9) .info header {
-	background-image: url(../img/still03.jpg);
+/*	background-image: url(../img/still03.jpg);*/
+     background-color: #eed9b7;
 } 
-*/
  
 
 
