@@ -231,8 +231,4 @@ padding: 4.75rem;
   }
 }
 
-@media screen and (min-width: 832px) {
-  #sponsi-carousel {
-    padding: 200px;
-  }
 }
