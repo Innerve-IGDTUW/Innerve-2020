@@ -209,6 +209,11 @@ padding: 4.75rem;
   font-weight: 700;
   font-size: 1.3rem;
 }
+.sp{
+  width: 250px;
+  height: 150px;
+  /* margin-bottom: 70px; */
+}
 
 
 
@@ -221,6 +226,7 @@ padding: 4.75rem;
     width: 100%;
     padding-bottom:6%;
   }
+
   #mainsponsor{
     width:100%;
     padding:none;
@@ -231,8 +237,3 @@ padding: 4.75rem;
   }
 }
 
-@media screen and (min-width: 832px) {
-  #sponsi-carousel {
-    padding: 200px;
-  }
-}
