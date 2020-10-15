@@ -1,3 +1,4 @@
+
 /* Mechanical*******/
 /* Open when someone clicks on the span element */
 function openNav() {
@@ -9,6 +10,15 @@ function openNav() {
     document.getElementById("myNav").style.width = "0%";
   }
 
+
+  function openNav4() {
+    document.getElementById("myNav4").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav4() {
+    document.getElementById("myNav4").style.width = "0%";
+  }
 
 
           /*********CSE/IT************ */
@@ -24,7 +34,14 @@ function openNav() {
     document.getElementById("myNav1").style.width = "0%";
   }
 
-
+  function openNav5() {
+    document.getElementById("myNav5").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav5() {
+    document.getElementById("myNav5").style.width = "0%";
+  }
 
        
              /*******Ece event*********** */
@@ -38,6 +55,14 @@ function openNav() {
     document.getElementById("myNav2").style.width = "0%";
   }
 
+  function openNav6() {
+    document.getElementById("myNav6").style.width = "100%";
+  }
+  
+  /* Close when someone clicks on the "x" symbol inside the overlay */
+  function closeNav6() {
+    document.getElementById("myNav6").style.width = "0%";
+  }
 
 
               /******INFORMAL EVENT */
@@ -52,6 +77,9 @@ function openNav() {
   }
 
 
+  
 
 
 
+
+ 
